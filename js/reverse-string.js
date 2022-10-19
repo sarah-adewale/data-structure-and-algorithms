@@ -21,6 +21,6 @@ console.log(reverseString('kenenna'), 'annenek')
 
 function reverseString(text){
     text = text.split()
-    return text.reduce((acc, c) => c + acc) //constant complexity O(1) 
+    return text.reduce((acc, c) => c + acc, '') //constant complexity O(1) 
 }
 
